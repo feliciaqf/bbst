@@ -1,0 +1,99 @@
+.home .bg {
+  background: #fff;
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 40px 0;
+
+}
+
+.home {
+  .header {
+    height: 70px !important;
+    padding: 10px 0;
+    background-color: #222930 !important;
+
+    .layout {
+      height: 100%;
+
+      >div {
+        height: 100%;
+        line-height: 32px;
+        display: flex;
+        align-items: center;
+
+        img {
+          height: 32px !important;
+        }
+
+        &.blizzwin {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          color: #fff;
+
+          img {
+            height: 100% !important;
+          }
+
+          p {
+            margin: 0;
+            text-align: center;
+            font-size: 16px;
+            margin-right: 10px;
+
+            &:last-child {
+              font-size: 12px;
+              border: 1px solid #94897B;
+              padding: 5px 10px;
+              line-height: 1;
+              margin-top: 5px;
+            }
+          }
+        }
+      }
+    }
+
+
+  }
+
+  .content {
+    background-color: #fff !important;
+    box-shadow: 0px 3px 10px 0px rgba(0, 0, 0, 0.20);
+
+    .title {
+      color: #262137 !important;
+    }
+
+    .retest {
+      background: #25C39A !important;
+      color: #fff !important;
+      box-shadow: 0px 1px 9px 0px rgba(0, 0, 0, 0.14);
+
+      &:hover {
+        background: $--color-primary !important;
+        color: #fff !important;
+      }
+    }
+  }
+
+  .list {
+    .item {
+      .left {
+        background-color: rgba(255, 255, 255, 0.05) !important;
+        color: #fff !important;
+        border: 1px solid #ccc;
+
+        .domain {
+          color: #666 !important;
+        }
+      }
+
+      .button {
+        background: transparent !important;
+        color: #25C39A !important;
+        border: 1px solid #ccc;
+      }
+    }
+  }
+}

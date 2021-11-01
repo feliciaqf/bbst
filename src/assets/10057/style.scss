@@ -1,0 +1,71 @@
+.home .bg {
+  background:#D2C0B1 url("~@img/bg.png");
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  background-position:center;
+  padding: 40px 0;
+
+}
+.home{
+  .header{
+    height:70px !important;
+    .layout{
+      height:100%;
+      div{
+        height:100%;
+        img{
+          height:100% !important;
+        }
+      }
+    }
+    img{height:100% !important;}
+  }
+  .content{
+    background-color: rgba(255,255,255,0.15) !important;
+    .title{
+      color:#000 !important;
+    }
+    .tips{
+      color:#525152 !important;
+    }
+    .retest{
+      border-color:#E3E3E3 !important;
+      color:#fff !important;
+      &:hover{
+        background:$--color-primary !important;
+        color:#fff !important;
+        border-color: $--color-primary !important;;
+      }
+    }
+  }
+  .list{
+    .item{
+      .left{
+        background-color:#F6F6F6 !important;
+        color:#fff !important;
+        .domain{
+          color:#000 !important;
+        }
+      }
+      .button{
+        background:#022069 !important;
+        color:#fff !important;
+      }
+    }
+  }
+}
+.app-footer{
+  background-color: #EFEFEF!important;
+  .brands,.footer_bottom{
+    background-color: transparent!important;
+  }
+  .brands{
+    border-bottom-color: rgba(0,0,0,.09)!important;
+  }
+  .info,.govs .gov div,.copyright{
+    color: rgba(2,32,105,.5)!important;
+  }
+}
+.app-footer .brands .box div:nth-child(2){
+  width: 45px!important;
+}

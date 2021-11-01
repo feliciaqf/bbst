@@ -1,0 +1,74 @@
+body, html {
+  background: #262137 !important;
+  margin: 0;
+}
+#app {
+  .home {
+    .content{
+      background-color: #2f2945;
+      .tips{
+        color: #999;
+      }
+    }
+    .content .title {
+      color: $--color-agent-nav-title;
+    }
+   .content .list .item .button{
+     color: #D0B393;
+     background:none;
+     border:1px solid #D0B393;
+   }
+   .retest{
+       background:linear-gradient(90deg, rgba(220, 202, 184, 1) 0%, rgba(210, 181, 150, 1) 100%);
+       border-radius:4px;
+
+       box-shadow: none !important;
+   }
+   .header{
+     background-color: #1F1B2D;
+   }
+  }
+  .bg {
+    // background-color: $body-bg-1;
+    background: #262137;
+    padding: 60px 0;
+
+    .content {
+      border-radius: 4px;
+      // border: 1px solid rgba(227, 227, 227, 1);
+      .retest {
+        border: 0;
+        color: #fff;
+      }
+      .list .item .left {
+        background-color: transparent;
+        background: none;
+        border:1px solid rgba(255,255,255,.1);
+
+        .domain {
+          color: #fff;
+        }
+      }
+    }
+  }
+}
+// .app-footer{
+//     .info{
+
+//     }
+// }
+.home .content .list .item .button{
+  // background: #FD902A !important;
+}
+.retest{
+  font-weight: 500;
+  &:hover {
+    // background: #FD902A !important;
+  }
+}
+.app-footer{
+  background-color: #201A2E!important;
+  .info,.copyright,.govs .gov div{
+    color: #C0C4D0!important;
+  }
+}

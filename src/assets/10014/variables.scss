@@ -1,0 +1,87 @@
+$contentWidth: 1200px;
+$header-height: 145px;
+$footer-height: 60px;
+
+$agent-header-height: 150px;
+
+// 模块间的间隔
+$gridGap: 20px;
+
+// zzh  add
+$footer-bottom-bg:#000;
+$footer-tips-color:#fff;
+$footer-gov-color:#fff;
+$footer-info-color:#fff;
+$footer-copyright-color:#fff;
+
+// 字体
+$digitFontFamily: 'Din Alternate', Quicksand, 'PingFang SC', 'Hiragino Sans GB',
+'Helvetica Neue', 'Microsoft Yahei', sans-serif, arial;
+
+// 个人中心
+$ucenterAsideWidth: 180px;
+// $ucenterMainWidth:
+$maxFormWidth: 505px;
+
+$borderRadius: 10px;
+
+// [theme='dark'] {
+//   // @import '~themes/var_dark';
+//   $header-bg: #282828;
+//   %block-style {
+//     border-radius: $borderRadius;
+//     // background-color: $body-bg-1;
+//   }
+// }
+// [theme='light'] {
+//   // @import '~themes/var_light';
+//   %block-style {
+//     border-radius: $borderRadius;
+//     // background-color: $body-bg-1;
+//   }
+// }
+$--color-primary: #B38A58;
+$--color-active: #995BF8;
+
+$--color-gradual1: #6055FF;
+$--color-gradual2: #BD61FF;
+$--color-collect: #985CFF; // 收藏
+//$--color-light: #9557E9; // 亮
+$--color-agent-nav-title: #9557E9; // 代理标题
+$--color-block-background-light: #9557E9; // 区块背景
+$--color-block-background: #2E2A48; // 区块背景
+$--color-sport-list-background: #2A293E; // 体育列表背景
+
+$--header-login-background: none; // 登入按钮背景
+
+
+$--color-white: #fff;
+/// color|1|Functional Color|1
+$--color-success: #67c23a;
+/// color|1|Functional Color|1
+$--color-warning: #ff9c54;
+/// color|1|Functional Color|1
+$--color-danger: #f66;
+/// color|1|Functional Color|1
+$--color-info: #909399;
+$--border-color-base: #525152;
+$body-bg: #1B1826;
+// 一级背景色
+$body-bg-1: #0B0816;
+// 二级背景色/一级背景上的line color
+$body-bg-2: #353435;
+
+$content-bg: rgba(40,39,59,0.9);
+
+$platform-balance-item: #3C3B55;
+
+$header-bg: #282828;
+$footer-bg: #28273B;
+
+
+
+//主要的一步：
+:export {
+  agent_nav_title: $--color-agent-nav-title;
+}
+

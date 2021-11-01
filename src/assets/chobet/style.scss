@@ -1,0 +1,29 @@
+#app {
+  .home {
+    .content .title {
+      color: $--color-agent-nav-title;
+    }
+   .content .list .item .button{
+     color: $--color-white;
+   }
+  }
+  .bg {
+    background-color: $body-bg-1;
+    padding: 60px 0;
+
+    .content {
+      border-radius: 4px;
+      border: 1px solid rgba(227, 227, 227, 1);
+      .retest {
+        border: 1px solid rgba(227, 227, 227, 1);
+        color: #000000;
+      }
+      .list .item .left {
+        background-color: #F6F6F6;
+        .domain {
+          color: #000000;
+        }
+      }
+    }
+  }
+}

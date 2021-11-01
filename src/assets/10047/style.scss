@@ -1,0 +1,95 @@
+body,
+html {
+  background:white !important;
+  margin: 0;
+}
+
+#app {
+  .logo{
+    background-image: url('~@img/logo2.png');
+    background-size: 100% 100%;
+    width: 93px;
+    height: 36px;
+    background-repeat: no-repeat;
+  }
+  .home {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    .content {
+      background: #ffffff;
+      border-radius: 3px;
+      .tips {
+        color: #9a9a9a;
+      }
+    }
+
+    .content .title {
+      color: #554031;
+    }
+
+    .content .list .item .button {
+      color: #554031;
+      background: none;
+      border: 1px solid #554031;
+    }
+
+    .retest {
+      background: #554031;
+      border-radius: 4px;
+      color: #fff;
+      box-shadow: none !important;
+      border: 0;
+    }
+
+    .header {
+      background-color: #ffffff;
+      height: 56px;
+
+      > .layout div + img {
+        display: none;
+      }
+    }
+  }
+
+  .bg {
+    // background-color: $body-bg-1;
+    padding: 60px 0;
+    flex: 1;
+    background: #f5f6fa;
+    .content {
+      border-radius: 4px;
+      // border: 1px solid rgba(227, 227, 227, 1);
+
+      .list .item .left {
+        border-radius: 4px;
+        border: 1px solid #cccccc;
+        background: white;
+        time-3 {
+          border-right-color: #ccc;
+        }
+
+        .domain {
+          color: #999;
+        }
+      }
+    }
+  }
+}
+
+// .app-footer{
+//     .info{
+
+//     }
+// }
+.home .content .list .item .button {
+  // background: #FD902A !important;
+}
+
+.retest {
+  font-weight: 500;
+
+  &:hover {
+    // background: #FD902A !important;
+  }
+}

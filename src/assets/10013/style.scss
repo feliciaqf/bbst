@@ -1,0 +1,47 @@
+.home .bg {
+  background:#3D3742 url("~@img/bg.png");
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  background-position:center;
+  padding: 40px 0;
+
+}
+.home{
+  .header{
+    height:70px !important;
+    padding:10px 0;
+    .layout{
+      height:100%;
+      div{
+        height:100%;
+        img{
+          height:100% !important;
+        }
+      }
+    }
+    img{height:100% !important;}
+  }
+  .content{
+    background-color: rgba(0,0,0,0.24) !important;
+    .retest{
+      border-color:rgba(255,255,255,0.4) !important;
+      &:hover{
+        background:$--color-primary !important;
+        color:#fff !important;
+      }
+    }
+  }
+  .list{
+    .item{
+      .left{
+        background-color:rgba(255,255,255,0.05) !important;
+        color:#fff !important;
+      }
+      .button{
+        background:#A88C6B !important;
+        color:#fff !important;
+      }
+    }
+  } 
+}
+

@@ -1,0 +1,85 @@
+#app{
+  .home .bg {
+    background:#222222;
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    background-position:center;
+    padding: 40px 0;
+
+  }
+  .home{
+    .header{
+      background-color: #18926C;
+      height:78px !important;
+      padding:10px 0;
+      box-sizing: border-box;
+      .layout{
+        height:100%;
+        span{
+          display: none;
+        }
+        div{
+          height:100%;
+          img{
+            height:55px !important;
+          }
+        }
+      }
+      .layout div + img{
+        display: none;
+      }
+    }
+    .content{
+      background: #363636!important;
+      border-radius: 10px;
+      border: 1px solid #525252;
+
+      .title{
+        color:#fff !important;
+      }
+      .tips{
+        color:#666 !important;
+      }
+      .retest{
+        border-color:#18926C !important;
+        color:#fff !important;
+        background: #18926C;
+        &:hover{
+          opacity: 0.8;
+        }
+      }
+    }
+    .list{
+      .item{
+        .left{
+          background:transparent !important;
+          color:#fff !important;
+          border: 1px solid #5C5C5C;
+          .time{
+            border-right: 1px solid #fff!important;
+          }
+          .domain{
+            color:#fff !important;
+          }
+        }
+        .button{
+          background:none !important;
+          color:#18926C !important;
+          border: 1px solid #18926C!important;
+        }
+      }
+    }
+  }
+  .app-footer{
+    background: #000!important;
+    .info{
+      color: #fff;
+    }
+    .govs .gov div{
+      color: #fff;
+    }
+    .copyright{
+      color: #fff;
+    }
+  }
+}

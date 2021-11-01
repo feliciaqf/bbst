@@ -1,0 +1,80 @@
+#app {
+  .home {
+    min-height: 100vh;
+    background: #090C15;
+    .header{
+      background-color:#090C15 !important;
+    }
+    .content .title {
+      color: #BACEF1 !important;
+    }
+   .content .list .item .button{
+      color: #BACEF1 !important;
+      background: #263046 !important;
+      border-radius: 4px !important;
+      border: 1px solid #3D4963 !important;
+   }
+  }
+  .bg {
+    background-color:#090C15 !important;
+    // background: url('./img/bg.png');
+    padding: 60px 0;
+
+    .content {
+      border-radius: 4px;
+      background: #191E2F !important;
+      // border: 1px solid rgba(227, 227, 227, 1);
+      .retest {
+        background: #26B1C1 !important;
+        box-shadow: none !important;
+      }
+      .tips{
+        color: #758BB5 !important;
+      }
+      .list .item .time{
+        border-right: 1px solid#758BB5 !important; 
+        color: #1AD2FE;
+      }
+      .time-2 {
+        color: #FF9114 !important;
+      }
+      .time-3 {
+        color: #E02020 !important;
+      }
+      .list .item .left {
+        background-color: #2B3347 !important;
+        border:none !important;
+
+        .domain {
+          color: #BACEF1 !important;
+        }
+      }
+      .list{
+        .empty{
+          .left{
+            background-color: #2B3347 !important;
+            background: #2B3347 !important;
+            border:none !important;
+          }
+        }
+      }
+    }
+  }
+}
+.app-footer .brands {
+  border-bottom: none !important;
+}
+// .app-footer{
+//     .info{
+
+//     }
+// }
+.home .content .list .item .button{
+  // background: #FD902A !important;
+}
+.retest{
+  font-weight: 500;
+  &:hover {
+    // background: #FD902A !important;
+  }
+}
